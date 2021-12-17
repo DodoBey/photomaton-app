@@ -1,0 +1,37 @@
+.newPostWrapper {
+  .icons {
+    color: white;
+  }
+  .imgUpload {
+    width: 100vw;
+    display: grid;
+    place-items: center;
+  }
+  #chooseFile {
+    display: none;
+  }
+  #uploadIcon {
+    width: 100px;
+    height: 100px;
+    color: white;
+    filter: drop-shadow(0 0 10px $alternateColor);
+  }
+  #uploadIcon:hover {
+    cursor: pointer;
+  }
+  .postContent {
+    width: 80vw;
+    border-radius: 12px;
+    padding: 6%;
+  }
+}
+
+.previewImageWrapper {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.previewImages {
+  width: 100%;
+  margin-top: 5vh;
+}

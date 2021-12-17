@@ -1,0 +1,37 @@
+.notificationMessage {
+  display: flex;
+  justify-content: left;
+  padding: 0.3rem;
+  align-items: center;
+}
+
+.modalWindow {
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  //   width: 90%;
+  background-color: $secondaryColor;
+  box-shadow: 24;
+  padding: 20px 10px;
+  .friendRequest {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    column-gap: 8px;
+    .friReqAvatar {
+      grid-row: 1/3;
+      place-self: center;
+    }
+    .requestBtn {
+      height: 30px;
+      margin-right: 3vw;
+      font-size: 15px;
+      padding: 3px 10px;
+    }
+  }
+}
+
+.avatarWrapper {
+  padding-right: 10px;
+}

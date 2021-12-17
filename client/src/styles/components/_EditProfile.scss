@@ -1,0 +1,21 @@
+.editProfileWrapper {
+  input {
+    color: rgb(255, 255, 255);
+    border-bottom: white solid 2px;
+  }
+  #chooseFile {
+    display: none;
+  }
+  #avatarLabel {
+    width: 100vw;
+  }
+  #avatarImg {
+    width: 200px;
+    height: 200px;
+    margin: 2vh auto 0;
+  }
+  .savingModal {
+    .MuiBox-root {
+    }
+  }
+}
